@@ -11,6 +11,7 @@ jobs:
     uses: docker/github-builder/.github/workflows/build.yml@v1
     permissions:
       contents: read
+      packages: write
       id-token: write
     with:
       output: image
